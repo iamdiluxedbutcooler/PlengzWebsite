@@ -4,12 +4,12 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 const fire = firebase.initializeApp({
-  apiKey: "AIzaSyCypcN_3IetULS6V8-BQ9FzjLazZAIDuSQ",
-  authDomain: "mywebsite-7ab79.firebaseapp.com",
-  projectId: "mywebsite-7ab79",
-  storageBucket: "mywebsite-7ab79.appspot.com",
-  messagingSenderId: "17995190475",
-  appId: "1:17995190475:web:ec92d56e81c0792f69cb4e"
+    apiKey: "AIzaSyBm3x4oSv_ObP6qcKP_vXCB07CHuk7yFOE",
+    authDomain: "plengzwebsite.firebaseapp.com",
+    projectId: "plengzwebsite",
+    storageBucket: "plengzwebsite.appspot.com",
+    messagingSenderId: "956735798235",
+    appId: "1:956735798235:web:e7efde7afc874c689e05fe",
 });
 
 export const auth = fire.auth();
